@@ -19,14 +19,15 @@ public class ToanTu {
     }
 
     public void checkNumber(int n) {
-        if (n == number) {
-            System.out.printf("Gía trị n = number");
-        } else if (n < number) {
-            System.out.printf("Gía trị n < number");
+        if (n == 100) {
+            System.out.printf("Giá trị:" + n + "=" + number);
+        } else if (n < 100) {
+            System.out.printf("Giá trị:" + n + "<" + number);
         } else {
-            System.out.printf("Gía trị n > number");
+            System.out.printf("Giá trị:" + n + ">" + number);
         }
     }
+
     public static void main(String[] args) {
         ToanTu tt = new ToanTu();
         tt.checkNumber1();
